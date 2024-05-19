@@ -1,0 +1,28 @@
+header {
+    width: 100vw;
+    height: 8vh;
+    background-color: var(--cinza-escuro);
+    display: grid;
+    align-items: center;
+    grid-template-columns: auto auto;
+    padding: 0 4vw;
+}
+
+.icones_esquerda {
+    font-size: 3rem;
+    color: var(--branco);
+    display: grid;
+    justify-self: start;
+    grid-auto-flow: column;
+    gap: 2vw;
+}
+
+.icones_direita {
+    font-size: 3rem;
+    color: var(--laranja);
+    justify-self: end;
+    display: grid;
+    grid-auto-flow: column;
+    gap: 1.5vw;
+}
+

@@ -1,0 +1,18 @@
+.header {
+    margin: 2% 15% 1%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.conteudo_header img {
+    width: 4%;
+}
+
+.conteudo_header {
+    display: flex;
+    gap: 10px;
+}
+
+.conteudo_header p {
+    font-size: 3vmin;
+    padding: 12px 0 0 0;
+}

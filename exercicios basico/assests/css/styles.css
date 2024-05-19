@@ -1,0 +1,109 @@
+* {
+    margin: 0; 
+    box-sizing: border-box;
+}
+
+.posicao_principal {
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.imagem_principal {
+    background-image: url(../imagens/imagem_fundo.jpg);
+
+}
+
+.texto_principal {
+    width: 45%;
+    color: #006400;
+    font-size: 50px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.conteudo_espumante {
+    margin: 50px 35px 50px 35px;
+    display: flex;
+    gap: 30px;
+}
+
+.imagem_espumante{
+    width: 50vw;
+    height: 50vh;
+}
+
+.texto_link_espumante {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;   
+}
+
+.texto_espumante {
+    margin: 30px 0 40px 0;
+}
+
+.link_espumante {
+    text-decoration: none;
+    margin-left: 10px;
+    color: white;
+    background-color: rgb(39, 1, 41);
+    padding: 7px 30px;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.conteudo_rose {
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 0 35px 50px;
+    gap: 40px;
+}
+
+.imagem_rose {
+    width: 110vw;
+    height: 50vh;
+}
+
+.texto_link_rose {
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.texto_rose {
+    margin: 30px 0 40px 0;
+}
+
+.link_rose {
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    margin-left: 10px;
+    border: 1px solid black;
+    padding: 7px 30px;
+    background-color: rgb(39, 1, 41);
+    color: white;
+    border-radius: 5px;
+}
+
+.imagens_vinhos img {
+    width: 15vw;
+}
+
+.imagens_vinhos_cima {
+    display: flex;
+    justify-content: center;
+    padding: 0 150px 40px;
+    gap: 70px;
+}
+
+.imagens_vinhos_baixo {
+    display: flex;
+    justify-content: center;
+    padding: 0 150px 40px;
+    gap: 70px;
+}

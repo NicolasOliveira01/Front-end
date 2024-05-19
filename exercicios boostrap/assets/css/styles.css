@@ -1,0 +1,7 @@
+.height-50 { min-height: 50vh;}
+
+.background-section {
+    background-image: url('img/pexels-kelly-3119955.jpg');
+    background-size: cover;
+    background-repeat: no-repeat; 
+}

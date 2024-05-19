@@ -1,0 +1,91 @@
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #FAEBD7;
+}
+
+.conteudo {
+    display: flex;
+    padding: 0 10% 5% 15%;
+}
+
+.conteudo img {
+    border-radius: 20px;
+}
+
+.imagem_principal {
+    width: 37vw;    
+}
+
+.imagens_menores {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 40px;
+    gap: 25px 40px;
+}
+
+.imagens_menores img {
+    height:26.5vh;
+} 
+
+.descricao {
+    display: flex;
+    flex-direction: column;
+    padding: 0 15%;
+    gap: 10px;
+}
+
+.descricao p {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 2.5vmin;
+}
+
+.ficha_tecnica {
+    padding: 5% 15% 5% 14% ;
+    display: flex;
+    justify-content: space-between;
+}
+
+.esquerda {
+    display: flex;
+    flex-direction: column;
+}
+
+.esquerda h1 {
+    margin-left: 5%;
+}
+
+.esquerda img {
+    height: 10vh;
+}
+
+.esquerda_cima {
+    display: flex;
+    gap: 15%;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
+.esquerda_baixo {
+    display: flex;
+    gap: 13%;
+}
+
+
+.direita p {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 60px;
+}
+
+.direita a {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 45px;
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 8px 70px;
+    background-color: rgb(39, 1, 41);
+    color: white;
+    border-radius: 15px;
+}
+

@@ -1,0 +1,24 @@
+:root {
+    --font-body: 'font-family: 'Heebo', sans-serif;';
+    --color-gray: #F4F5F9; 
+    --color-dark: black;
+}
+
+body {
+    font-family: var(--font-body);
+}
+
+.bg-gray {
+    background-color: #F4F5F9;
+}
+
+.bg-dark {
+    background-color: black;
+}
+
+.height-60 { min-height: 60vh;}
+.height-25 { min-height: 25vh;}
+
+.nav-link {    
+    font-size: 20px;
+}

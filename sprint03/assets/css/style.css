@@ -1,0 +1,91 @@
+body{
+    background-color: #0d5971;
+    color: #103043;
+    font-family: 'Lato', sans-serif;
+}
+
+.fonte-header {
+    color: #103043;
+}
+ 
+.bg-image{
+     background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), url(../../images/home.png);
+     background-size: cover;
+     background-repeat: no-repeat;
+}
+
+.fundo {
+    background-color:#0991a9;
+}
+
+.divisao {
+    background-color: #103043;
+    height: 0.5vh;
+}
+
+.rounded-cima {
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+}
+
+.rounded-baixo {
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+
+.paragrafo {
+    font-size: 1.5vw;
+}
+
+.bg-imagem-height {
+    height: 60vh;
+}
+
+.pa-parte2 {
+    font-size: 25px;
+}
+
+.margin-parte-3 {
+    margin-left: 10vw;
+    margin-top: 10vh;
+    margin-bottom: 5vh;
+}
+
+.imagem-parte-3 {
+    width: 80%;
+}
+
+.margin-left-parte4 {
+    margin-left: 8vw;
+}
+
+.margin-right-parte7 {
+    margin-right: 1vw;
+}
+
+.margin-top-parte7 {
+    margin-top: 6%;
+}
+
+.nicolas {
+    width: 175px;
+    border-top-left-radius: 110px;
+    border-top-right-radius: 110px;
+    border-bottom-left-radius: 110px;
+    border-bottom-right-radius: 110px;
+}
+
+.sobre-nos {
+    width: 40%;
+    padding-left: 5.5%;
+}
+
+.nomes {
+    font-size: 2vw;
+    color: #103043;
+}
+
+.footer {
+    height: 20vh;
+    color: #0991a9;
+}

@@ -1,0 +1,320 @@
+.titulo {
+    display: flex;
+    align-items: center;
+    width: 95%;
+    padding: 3rem 0;
+    margin: auto;
+}
+
+.titulo img {
+    width: 4vw;
+}
+
+.titulo h1 {
+    font-size: 4vw;
+}
+
+.main {
+    width: 95%;
+    padding: 5px;
+    margin: auto;
+}
+
+.bg {
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
+
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: 12vw;
+    grid-template-areas:
+    "img1 img1 img2 cinza"
+    "img1 img1 laranja img3"
+    "img4 img5 img5 img6"
+    "img4 img5 img5 img6"
+    "img4 img7 img8 img8"
+    "img4 img7 img8 img8";
+    gap: 0.5rem;
+}
+
+.img1 {background-image: url('../imagens/img1.jpg');grid-area: img1;}
+.img2 {background-image: url('../imagens/img2.jpg');grid-area: img2;}
+.img3 {background-image: url('../imagens/img3.jpg');grid-area: img3;}
+.img4 {background-image: url('../imagens/img4.jpg');grid-area: img4;}
+.img5 {background-image: url('../imagens/img5.jpg');grid-area: img5;}
+.img6 {background-image: url('../imagens/img6.jpg');grid-area: img6;}
+.img7 {background-image: url('../imagens/img7.jpg');grid-area: img7;}
+.img8 {background-image: url('../imagens/img8.jpg');grid-area: img8;}
+
+.laranja {
+    background-color: var(--laranja);
+    color: var(--branco);
+    grid-area: laranja;
+}
+
+.cinza {
+    background-color: var(--cinza-escuro);
+    color: var(--branco);
+    grid-area: cinza;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1.5fr 3fr 0.8fr;
+    grid-template-rows: 0.5fr 2.5fr 1.5fr; 
+    width: 100%;
+    height: 100%;
+}
+  
+.item {
+    background-color: var(--laranja);
+    color: var(--branco);
+}
+  
+.item1 {
+    grid-column: 3;
+    grid-row: 1;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  
+.item2 {
+    grid-column: 1;
+    grid-row: 3;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+  
+.container h1 {
+    font-size: 1.5vw;
+}
+  
+.item2 h1 {
+    font-size: 1vw;
+}
+  
+.item2 p {
+    font-size: 0.8vw;
+}
+
+.container2 {
+    padding: 2rem;
+    display: grid;
+    width: 100%;
+    height: 100%;
+  }
+
+  .container2 h1 {
+    font-size: 1vw;
+    display: grid;
+    justify-self: end;
+    align-self: end;
+  }
+
+  .container2 p {
+    font-size: 1.2vw;
+  }
+
+  .container3 {
+    padding: 2rem;
+    display: grid;
+    width: 100%;
+    height: 100%;
+  }
+
+  .container3 h1 {
+    font-size: 1.2vw;
+  }
+
+  .container3 p {
+    font-size: 1vw;
+    display: grid;
+    align-self: end;
+  }
+
+  .container4 {
+    display: grid;
+    grid-template-columns: 2.5fr 1fr;
+    grid-template-rows: 1.3fr 2.5fr; 
+    width: 100%;
+    height: 100%;
+  }
+
+  .item3 {
+    grid-column: 2;
+    grid-row: 1;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .item3 h1 {
+    font-size: 1vw;
+  }
+  
+  .item3 p {
+    font-size: 0.8vw;
+  }
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .gallery {      
+        grid-template-columns: 1fr 1fr;
+        grid-auto-rows: 35vw;
+        grid-template-areas: 
+        "img1 img2"
+        "cinza img3"
+        "img4 laranja"
+        "img5 img6"
+        "img7 img8";
+        gap: 0.5rem;
+    }
+
+    .titulo img {
+        width: 5vw;
+    }
+    
+    .titulo h1 {
+        font-size: 5vw;
+    }
+
+    .container {
+        grid-template-columns: 1.5fr 0.7fr 0.8fr;
+        grid-template-rows: 0.5fr 1.7fr 2fr;
+    }
+
+    .container h1 {
+        font-size: 2.2vw;
+    }
+
+    .item2 h1 {
+        font-size: 1.8vw;
+    }
+      
+    .item2 p {
+        font-size: 1.7vw;
+    }
+
+    .container3 h1 {
+        font-size: 2vw;
+    }
+    
+    .container3 p {
+        font-size: 1.8vw;
+        display: grid;
+        align-self: end;
+    }
+
+    .container2 h1 {
+        font-size: 1.8vw;
+        display: grid;
+        justify-self: end;
+        align-self: end;
+    }
+    
+    .container2 p {
+        font-size: 2vw;
+    }
+
+    .container4 {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1.5fr 1.7fr; 
+    }
+
+    .item3 h1 {
+        font-size: 1.8vw;
+    }
+      
+    .item3 p {
+        font-size: 1.7vw;
+    }
+}
+
+@media (min-width: 567px) and (max-width: 767px) {
+    .gallery {      
+        grid-template-columns: 1fr;
+        grid-auto-rows: 60vw;
+        grid-template-areas: 
+        "img1"
+        "img1"
+        "cinza"
+        "img2"
+        "laranja"
+        "img3"
+        "img4"
+        "img5"
+        "img6"
+        "img7"
+        "img7"
+        "img8"
+        ;
+        gap: 0.5rem;
+    }
+
+    .titulo img {
+        width: 7vw;
+    }
+    
+    .titulo h1 {
+        font-size: 7vw;
+    }
+
+    .container {
+        grid-template-columns: 1.5fr 1.8fr 0.6fr;
+        grid-template-rows: 0.25fr 3.5fr 1fr;
+    }
+
+    .container h1 {
+        font-size: 2.8vw;
+    }
+
+    .item2 h1 {
+        font-size: 2.6vw;
+    }
+      
+    .item2 p {
+        font-size: 2.6vw;
+    }
+
+    .container3 h1 {
+        font-size: 3.5vw;
+    }
+    
+    .container3 p {
+        font-size: 3.5vw;
+        display: grid;
+        align-self: end;
+    }
+
+    .container2 h1 {
+        font-size: 3.5vw;
+        display: grid;
+        justify-self: end;
+        align-self: end;
+    }
+    
+    .container2 p {
+        font-size: 3.5vw;
+    }
+
+    .container4 {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1.5fr 1.7fr; 
+    }
+
+    .item3 h1 {
+        font-size: 2.8vw;
+    }
+      
+    .item3 p {
+        font-size: 2.6vw;
+    }
+}

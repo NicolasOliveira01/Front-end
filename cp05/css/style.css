@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--fonte);
+}
+
+html {
+    font-size: 62.5%;
+}
+
+:root {
+    --laranja: #EF6209;
+    --cinza-escuro: #121212;
+    --branco: #FFFFFF;
+    --fonte: 'Quicksand', sans-serif;
+}

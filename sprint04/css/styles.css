@@ -1,0 +1,199 @@
+body {
+  background-color: #0d5971;
+  color: #103043;
+  font-family: "Lato", sans-serif;
+}
+body .fonte-header {
+  color: #103043;
+}
+body .divisao {
+  background-color: #103043;
+  height: 0.5vh;
+}
+body .bg-image {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), url(../images/home.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+body .bg-image .bg-imagem-height {
+  height: 60vh;
+}
+body .bg-image .bg-imagem-height .fundo {
+  background-color: rgba(9, 145, 169, 0.6);
+  padding: 20px;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+}
+body .bg-image .bg-imagem-height .width-titulo {
+  width: 50%;
+}
+body .bg-image .bg-imagem-height .pa-parte2 {
+  font-size: 25px;
+}
+body .margin-parte-3 {
+  margin: 10vh 0 5vw 10vw;
+}
+body .margin-parte-3 .imagem-parte-3 {
+  width: 80%;
+}
+body .margin-parte-3 .rounded-cima {
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+}
+body .margin-parte-3 .paragrafo {
+  font-size: 1.5vw;
+}
+body .margin-parte-3 .fundo {
+  background-color: #0991a9;
+}
+body .margin-parte-3 .rounded-baixo {
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+}
+body .margin-left-parte4 {
+  margin-left: 8vw;
+}
+body .margin-left-parte4 .paragrafo {
+  font-size: 1.5vw;
+}
+body .margin-left-parte4 .fundo {
+  background-color: #0991a9;
+}
+body .margin-left-parte4 .rounded-cima {
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+}
+body .margin-left-parte4 .rounded-baixo {
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+}
+body .parte-5 .rounded-cima {
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+}
+body .parte-5 .rounded-baixo {
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+}
+body .parte-5 .paragrafo {
+  font-size: 1.5vw;
+}
+body .parte-5 .fundo {
+  background-color: #0991a9;
+}
+body .parte-7 .fundo {
+  background-color: #0991a9;
+}
+body .parte-7 .rounded-cima {
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+}
+body .parte-7 .rounded-baixo {
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+}
+body .margin-top-parte7 {
+  margin-top: 6%;
+}
+body .margin-top-parte7 .margin-right-parte7 {
+  margin-right: 1vw;
+}
+body .margin-top-parte7 .margin-right-parte7 .rounded-cima {
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+}
+body .margin-top-parte7 .margin-right-parte7 .rounded-baixo {
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+}
+body .margin-top-parte7 .margin-right-parte7 .nomes {
+  font-size: 2vw;
+  color: #103043;
+}
+body .margin-top-parte7 .nomes {
+  font-size: 2vw;
+  color: #103043;
+}
+body .margin-top-parte7 .margin-right-parte7 {
+  margin-right: 1vw;
+}
+body .margin-top-parte7 .margin-right-parte7 .nicolas {
+  width: 175px;
+  border-top-left-radius: 110px;
+  border-top-right-radius: 110px;
+  border-bottom-left-radius: 110px;
+  border-bottom-right-radius: 110px;
+}
+body .fundo {
+  background-color: #0991a9;
+}
+body .rounded-cima {
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+}
+body .rounded-baixo {
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+}
+body .sobre-nos {
+  width: 40%;
+  padding-left: 5.5%;
+}
+body .paragrafo {
+  font-size: 1.5vw;
+}
+body .footer {
+  color: #0991a9;
+  height: 20vh;
+  background-color: #103043;
+}
+
+@media (max-width: 991px) {
+  body .margin-parte-3 .imagem-parte-3 {
+    width: 100%;
+  }
+  body .margin-parte-3 .paragrafo {
+    font-size: 2.5vw;
+  }
+  body .margin-left-parte4 .paragrafo {
+    font-size: 2.5vw;
+  }
+  body .rounded-cima {
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+  }
+  body .rounded-baixo {
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+  }
+  body .paragrafo {
+    font-size: 2.5vw;
+  }
+  body .fundo {
+    background-color: #0991a9;
+  }
+  body .margin-top-parte7 {
+    margin-top: 6%;
+  }
+  body .margin-top-parte7 .margin-right-parte7 {
+    margin-right: 1vw;
+  }
+  body .margin-top-parte7 .margin-right-parte7 .nomes {
+    font-size: 3vw;
+    color: #103043;
+  }
+  body .margin-top-parte7 .nomes {
+    font-size: 3vw;
+    color: #103043;
+  }
+  body .margin-top-parte7 .margin-right-parte7 {
+    margin-right: 1vw;
+  }
+  body .paragrafo {
+    font-size: 2.5vw;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
